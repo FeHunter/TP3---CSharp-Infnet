@@ -15,5 +15,14 @@ namespace exercicioTP2
                 return Preco * Quantidade;
             }
         }
+
+        public override string ToString (){
+            return "\nProduto"
+            + "\nNome: " + Nome
+            + "\nPreço: " + Preco
+            + "\nQuantidade: " + Quantidade
+            + "\nValor Em Estoque: " + ValorEmEstoque().ToString("F2")
+            + "\nData de Validade: " + DataDeValidade;
+        }
     }
 }

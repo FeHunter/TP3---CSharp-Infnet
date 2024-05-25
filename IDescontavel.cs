@@ -1,4 +1,4 @@
 interface IDescontavel
 {
-    void aplicarDesconto (double porcentagem);
+    void AplicarDesconto (double porcentagem);
 }

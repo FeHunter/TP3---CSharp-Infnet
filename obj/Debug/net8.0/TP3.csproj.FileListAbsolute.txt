@@ -1,0 +1,15 @@
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\bin\Debug\net8.0\TP3.exe
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\bin\Debug\net8.0\TP3.deps.json
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\bin\Debug\net8.0\TP3.runtimeconfig.json
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\bin\Debug\net8.0\TP3.dll
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\bin\Debug\net8.0\TP3.pdb
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.AssemblyInfoInputs.cache
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.AssemblyInfo.cs
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.csproj.CoreCompileInputs.cache
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.sourcelink.json
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.dll
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\refint\TP3.dll
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.pdb
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\TP3.genruntimeconfig.cache
+C:\Users\hunte\Documents\Programação\Estudos\Faculdade\Back-End\C#\TPs\TP3\obj\Debug\net8.0\ref\TP3.dll
