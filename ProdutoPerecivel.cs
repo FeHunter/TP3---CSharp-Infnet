@@ -4,16 +4,19 @@ namespace exercicioTP2
     {
         private DateTime _dataDeValidade;
         public DateTime DataDeValidade { get{ return _dataDeValidade; } set{ _dataDeValidade = value; } }
+
+        public ProdutoPerecivel(){}
+        public ProdutoPerecivel (string nome, double preco, int quantidade, DateTime dateTime) : base(nome, preco, quantidade)
+        {
+            _dataDeValidade = dateTime;
+        }
         
         public override double ValorEmEstoque () {
-            if (_dataDeValidade >= DateTime.Now)
-            {
-                return Preco * Quantidade / 100 * 20;
+            double valorEstoque = base.ValorEmEstoque();
+            if (_dataDeValidade < DateTime.Now.AddDays(7)) {
+                valorEstoque *= 0.8;
             }
-            else
-            {
-                return Preco * Quantidade;
-            }
+            return valorEstoque;
         }
 
         public override string ToString (){

@@ -2,7 +2,7 @@ using System;
 
 namespace exercicioTP2
 {
-    public class Produto
+    public class Produto : IDescontavel
     {
         private string _nome;
         private double _preco;
@@ -32,5 +32,7 @@ namespace exercicioTP2
             + "\nQuantidade: " + _quantidade
             + "\nValor Em Estoque: " + ValorEmEstoque();
         }
+
+        public void AplicarDesconto(double porcentagem){}
     }
 }
