@@ -15,17 +15,24 @@ namespace exercicioTP2
             double valorEstoque = base.ValorEmEstoque();
             if (_dataDeValidade < DateTime.Now.AddDays(7)) {
                 valorEstoque *= 0.8;
+                AplicarDesconto(20);
             }
             return valorEstoque;
+        }
+
+        void AplicarDesconto(double porcentagem) {
+            double precoAtual = Preco;
+            Preco = precoAtual - (precoAtual * (porcentagem / 100));
         }
 
         public override string ToString (){
             return "\nProduto"
             + "\nNome: " + Nome
-            + "\nPreço: " + Preco
-            + "\nQuantidade: " + Quantidade
-            + "\nValor Em Estoque: " + ValorEmEstoque().ToString("F2")
-            + "\nData de Validade: " + DataDeValidade;
+             + "\nPreço: " + Preco
+             + "\nQuantidade: " + Quantidade
+             + "\nValor Em Estoque: " + ValorEmEstoque()
+             + "\nData de Validade: " + DataDeValidade
+             + (DataDeValidade < DateTime.Now.AddDays(7) ? $"\nDesconto de 20%, {Preco}" : "");
         }
     }
 }
