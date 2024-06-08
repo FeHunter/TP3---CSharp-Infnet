@@ -28,11 +28,11 @@ namespace exercicioTP2
         public override string ToString (){
             return "\nProduto"
             + "\nNome: " + Nome
-             + "\nPreço: " + Preco
+             + "\nPreço: R$" + Preco
              + "\nQuantidade: " + Quantidade
-             + "\nValor Em Estoque: " + ValorEmEstoque()
+             + "\nValor Em Estoque: R$" + ValorEmEstoque().ToString("F2")
              + "\nData de Validade: " + DataDeValidade
-             + (DataDeValidade < DateTime.Now.AddDays(7) ? $"\nDesconto de 20%, {Preco}" : "");
+             + (DataDeValidade < DateTime.Now.AddDays(7) ? $"\nDesconto de 20%, R${Preco}" : "");
         }
     }
 }

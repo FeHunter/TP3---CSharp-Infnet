@@ -41,7 +41,17 @@ namespace exercicioTP2
         Console.Write("Preço:");
         double preco = double.Parse(Console.ReadLine());
 
-        Produto produto = new Produto(nome, preco, qtd);
+        Console.Write("Desconto em %");
+        double desconto = double.Parse(Console.ReadLine());
+
+        Produto produto;
+        if (desconto != 0)
+        {
+          produto = new Produto(nome, preco, qtd);
+        }
+        else {
+          produto = new Produto(nome, preco, qtd, desconto);
+        }
         return produto;
       }
 
